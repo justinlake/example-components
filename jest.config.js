@@ -36,6 +36,7 @@ const config = {
 
   // A map from regular expressions that allow to stub out resources with a single module
   moduleNameMapper: {
+    '\\.module\\.css$': 'identity-obj-proxy',
     '\\.(css|less|scss|sass)$': '<rootDir>/config/styleStub.js',
     '\\.(gif|ttf|eot|svg|png)$': '<rootDir>/config/fileStub.js'
   },
