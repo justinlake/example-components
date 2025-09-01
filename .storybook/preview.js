@@ -1,3 +1,5 @@
+import '../src/assets/styles/example-theme.css';
+
 const preview = {
   parameters: {
     backgrounds: {
