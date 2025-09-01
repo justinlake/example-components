@@ -1,0 +1,121 @@
+.example-button {
+    border-radius: var(--example-border-radius-default);
+    border: 1px solid var(--example-color-border);
+    cursor: pointer;
+    font-family: var(--example-font-family);
+    font-size: var(--example-font-size-default);
+    font-weight: var(--example-font-weight-default);
+    letter-spacing: var(--example-letter-spacing-default);
+    line-height: var(--example-line-height-default);
+    min-width: 150px;
+    padding: var(--example-spacing-default) var(--example-spacing-lg);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    
+    &:hover:not(.example-button__disabled),
+    &:focus:not(.example-button__disabled) {
+        box-shadow: var(--example-shadow-large);
+    }
+    
+    &.example-button__small {
+        font-size: var(--example-font-size-sm);
+        min-width: 100px;
+        padding: var(--example-spacing-sm) var(--example-spacing-default);
+    }
+    
+    &.example-button__large {
+        font-size: var(--example-font-size-lg);
+        min-width: 200px;
+        padding: var(--example-spacing-lg) var(--example-spacing-xl);
+    }
+    
+    &.example-button__primary {
+        background-color: var(--example-color-primary);
+        border-color: var(--example-color-primary-dark);
+        color: var(--example-color-text-light);
+    
+        &:hover:not(.example-button__disabled),
+        &:focus:not(.example-button__disabled) {
+            background-color: var(--example-color-primary-dark);
+            border-color: var(--example-color-primary-darker);
+        }
+        
+        &:active:not(.example-button__disabled) {
+            background-color: var(--example-color-primary-darker);
+            border-color: var(--example-color-primary-darker);
+        }
+    }
+    
+    &.example-button__secondary {
+        background-color: var(--example-color-secondary);
+        border-color: var(--example-color-secondary-dark);
+        color: var(--example-color-text);
+        
+        &:hover:not(.example-button__disabled),
+        &:focus:not(.example-button__disabled) {
+            background-color: var(--example-color-secondary-dark);
+            border-color: var(--example-color-secondary-darker);
+        }
+        
+        &:active:not(.example-button__disabled) {
+            background-color: var(--example-color-secondary-darker);
+            border-color: var(--example-color-secondary-darker);
+        }
+    }
+
+    &.example-button__success {
+        background-color: var(--example-color-success);
+        border-color: var(--example-color-success-dark);
+        color: var(--example-color-text-light);
+        
+        &:hover:not(.example-button__disabled),
+        &:focus:not(.example-button__disabled) {
+            background-color: var(--example-color-success-dark);
+            border-color: var(--example-color-success-darker);
+        }
+        
+        &:active:not(.example-button__disabled) {
+            background-color: var(--example-color-success-darker);
+            border-color: var(--example-color-success-darker);
+        }
+    }
+    
+    &.example-button__warning {
+        background-color: var(--example-color-warning);
+        border-color: var(--example-color-warning-dark);
+        color: var(--example-color-text);
+    
+        &:hover:not(.example-button__disabled),
+        &:focus:not(.example-button__disabled) {
+            background-color: var(--example-color-warning-dark);
+            border-color: var(--example-color-warning-darker);
+        }
+        
+        &:active:not(.example-button__disabled) {
+            background-color: var(--example-color-warning-darker);
+            border-color: var(--example-color-warning-darker);
+        }
+    }
+    
+    &.example-button__danger {
+        background-color: var(--example-color-danger);
+        border-color: var(--example-color-danger-dark);
+        color: var(--example-color-text-light);
+        
+        &:hover:not(.example-button__disabled),
+        &:focus:not(.example-button__disabled) {
+            background-color: var(--example-color-danger-dark);
+            border-color: var(--example-color-danger-darker);
+        }
+        
+        &:active:not(.example-button__disabled) {
+            background-color: var(--example-color-danger-darker);
+            border-color: var(--example-color-danger-darker);
+        }
+    }
+    
+    &.example-button__disabled {
+        box-shadow: none;
+        cursor: not-allowed;
+        opacity: 0.7;
+    }
+}
