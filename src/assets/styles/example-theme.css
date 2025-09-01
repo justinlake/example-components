@@ -1,0 +1,109 @@
+@import url('../fonts/work-sans/work-sans.css');
+
+:root {
+    /* Base Theme Variables */
+    --example-base-color-blue-100: #e5f2ff;
+    --example-base-color-blue-400: #1a88ff;
+    --example-base-color-blue-500: #0062cc;
+    --example-base-color-blue-600: #003d80;
+    --example-base-color-blue-700: #00254d;
+
+    --example-base-color-teal-100: #eafbfc;
+    --example-base-color-teal-400: #90eaf0;
+    --example-base-color-teal-500: #4ddde7;
+    --example-base-color-teal-600: #1cc1cc;
+    --example-base-color-teal-700: #15969f;
+
+    --example-base-color-green-100: #e3f4d4;
+    --example-base-color-green-400: #6cb62d;
+    --example-base-color-green-500: #48791e;
+    --example-base-color-green-600: #305014;
+    --example-base-color-green-700: #17270a;
+
+    --example-base-color-yellow-100: #fcf3d5;
+    --example-base-color-yellow-400: #f7cf41;
+    --example-base-color-yellow-500: #efbf16;
+    --example-base-color-yellow-600: #c49c0e;
+    --example-base-color-yellow-700: #ad890c;
+    --example-base-color-yellow-900: #4d3d05;
+
+    --example-base-color-red-100: #fef7f7;
+    --example-base-color-red-400: #e6434f;
+    --example-base-color-red-500: #c21a27;
+    --example-base-color-red-600: #7f1119;
+    --example-base-color-red-700: #520b10;
+
+    --example-base-color-gray-100: #f7f5fb;
+    --example-base-color-gray-400: #b7b4bc;
+    --example-base-color-gray-500: #918b98;
+    --example-base-color-gray-600: #6b6572;
+    --example-base-color-gray-700: #514d57;
+    --example-base-color-gray-900: #121113;
+
+    --example-base-color-transparent: transparent;
+
+    --example-base-color-shadow: #12111333;
+
+    --example-base-font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    --example-base-font-size: 16px;
+
+    --example-base-spacing: 8px;
+    --example-base-border-radius: 4px;
+
+    /* Semantic Theme Variables */
+    --example-color-black: var(--example-base-color-gray-900);
+    --example-color-white: var(--example-base-color-gray-100);
+    --example-color-transparent: var(--example-base-color-transparent);
+    --example-color-primary: var(--example-base-color-blue-500);
+    --example-color-primary-dark: var(--example-base-color-blue-600);
+    --example-color-primary-darker: var(--example-base-color-blue-700);
+    --example-color-primary-light: var(--example-base-color-blue-400);
+    --example-color-primary-lighter: var(--example-base-color-blue-100);
+    --example-color-secondary: var(--example-base-color-teal-500);
+    --example-color-secondary-dark: var(--example-base-color-teal-600);
+    --example-color-secondary-darker: var(--example-base-color-teal-700);
+    --example-color-secondary-light: var(--example-base-color-teal-400);
+    --example-color-secondary-lighter: var(--example-base-color-teal-100);
+    --example-color-success: var(--example-base-color-green-500);
+    --example-color-success-dark: var(--example-base-color-green-600);
+    --example-color-success-darker: var(--example-base-color-green-700);
+    --example-color-success-light: var(--example-base-color-green-400);
+    --example-color-success-lighter: var(--example-base-color-green-100);
+    --example-color-warning: var(--example-base-color-yellow-500);
+    --example-color-warning-dark: var(--example-base-color-yellow-600);
+    --example-color-warning-darker: var(--example-base-color-yellow-700);
+    --example-color-warning-darkest: var(--example-base-color-yellow-900);
+    --example-color-warning-light: var(--example-base-color-yellow-400);
+    --example-color-warning-lighter: var(--example-base-color-yellow-100);
+    --example-color-danger: var(--example-base-color-red-500);
+    --example-color-danger-dark: var(--example-base-color-red-600);
+    --example-color-danger-darker: var(--example-base-color-red-700);
+    --example-color-danger-light: var(--example-base-color-red-400);
+    --example-color-danger-lighter: var(--example-base-color-red-100);
+    --example-color-text: var(--example-color-black);
+    --example-color-text-light: var(--example-color-white);
+    --example-color-text-disabled: var(--example-base-color-gray-600);
+    --example-color-background: var(--example-color-white);
+    --example-color-background-dark: var(--example-base-color-gray-600);
+    --example-color-border: var(--example-base-color-gray-500);
+
+    --example-font-family: var(--example-base-font-family);
+    --example-font-size-default: var(--example-base-font-size);
+    --example-font-size-sm: 0.875rem; /* 14px */ 
+    --example-font-size-lg: 1.125rem; /* 18px */
+    
+    --example-font-weight-light: 300;
+    --example-font-weight-default: 400;
+    --example-font-weight-bold: 700;
+    --example-line-height-default: 1.5;
+    --example-letter-spacing-default: normal;
+
+    --example-border-radius-default: var(--example-base-border-radius);
+    --example-spacing-xs: calc(var(--example-base-spacing) / 3);
+    --example-spacing-sm: calc(var(--example-base-spacing) / 2);
+    --example-spacing-default: var(--example-base-spacing);
+    --example-spacing-lg: calc(var(--example-base-spacing) * 2);
+    --example-spacing-xl: calc(var(--example-base-spacing) * 3);
+    --example-shadow-default: 0 2px 4px var(--example-base-color-shadow);
+    --example-shadow-large: 0 4px 8px var(--example-base-color-shadow);
+}
