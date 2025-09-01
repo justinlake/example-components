@@ -13,6 +13,7 @@ This repository showcases a mock React component library designed to demonstrate
 - [How Components Are Created](#how-components-are-created)
 - [Testing](#testing)
 - [Contributing to Example Components](#contributing-to-example-components)
+- [Repository Setup and Development Workflow](#repository-setup-and-development-workflow)
 - [Documentation and Future Improvements](#documentation-and-future-improvements)
 - [License](#license)
 
@@ -195,9 +196,13 @@ Current configuration settings for unit tests is set to a global **80% minimum**
 
 ## Contributing to Example Components
 
-View the [CONTRIBUTING.md](/docs/CONTRIBUTING.md) to learn how to contribute to this project.
+View the [CONTRIBUTING.md](./docs/CONTRIBUTING.md) to learn how to contribute to this project.
 
-Repository Setup and Development Workflow
+---
+
+## Repository Setup and Development Workflow
+
+View Example Components' project [Development_Guidlines.md](./docs/Development_Guidlines.md)
 
 ---
 
